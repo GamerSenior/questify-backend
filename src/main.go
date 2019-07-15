@@ -5,10 +5,9 @@ import (
 	"net/http"
 	"os"
 
-	"./app"
+	"github.com/GamerSenior/questify-back/src/app"
+	"github.com/GamerSenior/questify-back/src/controllers"
 	"github.com/gorilla/mux"
-
-	"./controllers"
 )
 
 func main() {
