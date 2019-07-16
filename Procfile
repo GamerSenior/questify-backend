@@ -1,1 +1,1 @@
-web: bin/questify_back
+web: bin/questify-back
