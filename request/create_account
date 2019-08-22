@@ -1,0 +1,7 @@
+POST https://mysterious-basin-74781.herokuapp.com/api/users/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "abelgiovani@gmail.com",
+    "password": "pamonha123"
+}
