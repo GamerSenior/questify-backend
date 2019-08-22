@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"encoding/json"
-	"github.com/GamerSenior/questify-back/models"
+	"github.com/GamerSenior/questify-backend/models"
+	u "github.com/GamerSenior/questify-backend/utils"
 	"net/http"
-	u "github.com/GamerSenior/questify-back/utils"
 )
 
 // CreateAccount explanation

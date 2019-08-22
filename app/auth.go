@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	jwt "github.com/dgrijalva/jwt-go"
-	u "github.com/GamerSenior/questify-back/utils"
-	"github.com/GamerSenior/questify-back/models"
+	"github.com/GamerSenior/questify-backend/models"
+	u "github.com/GamerSenior/questify-backend/utils"
+	"github.com/dgrijalva/jwt-go"
 )
 
 func writeErrorResponse(w http.ResponseWriter, message string) {

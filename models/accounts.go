@@ -1,12 +1,12 @@
 package models
 
 import (
+	u "github.com/GamerSenior/questify-backend/utils"
 	"github.com/dgrijalva/jwt-go"
-	u "github.com/GamerSenior/questify-back/utils"
-	"strings"
 	"github.com/jinzhu/gorm"
-	"os"
 	"golang.org/x/crypto/bcrypt"
+	"os"
+	"strings"
 )
 
 // Token struct
